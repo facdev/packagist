@@ -1,4 +1,6 @@
-## autoload
+## Autoload
+
+See http://getcomposer.org/doc/04-schema.md#authors
 
 Autoload mapping for a PHP autoloader.
 
