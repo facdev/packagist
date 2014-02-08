@@ -7,14 +7,8 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-fac.git",
+                    "url": "git@github.com:facdev/php-fac.git",
                     "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
-                    "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
-                    "shasum": ""
                 },
                 "require": {
                     "ext-spl": "*",
@@ -42,11 +36,7 @@
                         "role": "Developer"
                     }
                 ],
-                "description": "Простой набор примитивов",
-                "support": {
-                    "source": "https://github.com/facdev/php-fac/tree/v0.1.0",
-                    "issues": "https://github.com/facdev/php-fac/issues"
-                }
+                "description": "Простой набор примитивов"
             },
             "dev-master": {
                 "name": "php-utils/fac",
@@ -54,14 +44,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-fac.git",
+                    "url": "git@github.com:facdev/php-fac.git",
                     "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
-                    "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
-                    "shasum": ""
                 },
                 "require": {
                     "ext-spl": "*",
@@ -89,11 +73,7 @@
                         "role": "Developer"
                     }
                 ],
-                "description": "Простой набор примитивов",
-                "support": {
-                    "source": "https://github.com/facdev/php-fac/tree/v0.1.0",
-                    "issues": "https://github.com/facdev/php-fac/issues"
-                }
+                "description": "Простой набор примитивов"
             }
         },
         "php-utils/logger": {
@@ -103,14 +83,8 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-logger.git",
+                    "url": "git@github.com:facdev/php-logger.git",
                     "reference": "fed15fbedf57ec81e85faf07ac18db41d759677f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/fed15fbedf57ec81e85faf07ac18db41d759677f",
-                    "reference": "fed15fbedf57ec81e85faf07ac18db41d759677f",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -128,11 +102,7 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "Mini logger.",
-                "support": {
-                    "source": "https://github.com/facdev/php-logger/tree/master",
-                    "issues": "https://github.com/facdev/php-logger/issues"
-                }
+                "description": "Mini logger."
             },
             "dev-master": {
                 "name": "php-utils/logger",
@@ -140,14 +110,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-logger.git",
+                    "url": "git@github.com:facdev/php-logger.git",
                     "reference": "de80983679bff438892da3139d70f290a885d959"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/de80983679bff438892da3139d70f290a885d959",
-                    "reference": "de80983679bff438892da3139d70f290a885d959",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -170,10 +134,7 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "Mini logger.",
-                "support": {
-                    "source": "https://github.com/facdev/php-logger/tree/master"
-                }
+                "description": "Mini logger."
             }
         },
         "php-utils/php-utils": {
@@ -183,14 +144,8 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-utils.git",
-                    "reference": "72809f24c698cc760bee9ba00d5836e9740593e4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/72809f24c698cc760bee9ba00d5836e9740593e4",
-                    "reference": "72809f24c698cc760bee9ba00d5836e9740593e4",
-                    "shasum": ""
+                    "url": "git@github.com:facdev/php-utils.git",
+                    "reference": "feafcd5fe947a4a12e09f670736a2227b0e57b46"
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -205,10 +160,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "PHP Utils",
-                "support": {
-                    "source": "https://github.com/facdev/php-utils/tree/0.1.0"
-                }
+                "description": "PHP Utils"
             },
             "dev-master": {
                 "name": "php-utils/php-utils",
@@ -216,14 +168,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/facdev/php-utils.git",
+                    "url": "git@github.com:facdev/php-utils.git",
                     "reference": "fa60e27877a5598cdf33baadfab9e3333372810c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/fa60e27877a5598cdf33baadfab9e3333372810c",
-                    "reference": "fa60e27877a5598cdf33baadfab9e3333372810c",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -233,7 +179,7 @@
                     "mustangostang/spyc": "*",
                     "pimple/pimple": "*"
                 },
-                "time": "2014-02-07 17:52:55",
+                "time": "2014-02-07 17:50:20",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -248,10 +194,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "PHP Utils",
-                "support": {
-                    "source": "https://github.com/facdev/php-utils/tree/master"
-                }
+                "description": "PHP Utils"
             }
         },
         "slim/slim": {
@@ -261,14 +204,8 @@
                 "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "24c8b5becb6db1077fad32a8f1c2c436cf436dd0"
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -304,10 +241,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
-                }
+                ]
             },
             "v2.4.0RC1": {
                 "name": "slim/slim",
@@ -315,14 +249,8 @@
                 "version_normalized": "2.4.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -358,10 +286,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
-                }
+                ]
             },
             "v2.4.1": {
                 "name": "slim/slim",
@@ -369,14 +294,8 @@
                 "version_normalized": "2.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
-                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/719211568b3e3d0cf489a690d6aadc302dcb19c1",
-                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "b21f4cfbd98c7b0635f92657b087053ca07c780d"
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -412,10 +331,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/2.4.1-alpha-1"
-                }
+                ]
             },
             "2.4.x-dev": {
                 "name": "slim/slim",
@@ -423,14 +339,8 @@
                 "version_normalized": "2.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/719211568b3e3d0cf489a690d6aadc302dcb19c1",
-                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -466,10 +376,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/2.4.1-alpha-1"
-                }
+                ]
             },
             "3.x-dev": {
                 "name": "slim/slim",
@@ -477,14 +384,8 @@
                 "version_normalized": "3.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "17b9a64e7313e3af45b89e4248772e0701f21c3a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/17b9a64e7313e3af45b89e4248772e0701f21c3a",
-                    "reference": "17b9a64e7313e3af45b89e4248772e0701f21c3a",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -514,10 +415,7 @@
                     }
                 ],
                 "description": "Slim Framework, a PHP micro framework",
-                "homepage": "http://github.com/codeguy/Slim",
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/3.x"
-                }
+                "homepage": "http://github.com/codeguy/Slim"
             },
             "dev-master": {
                 "name": "slim/slim",
@@ -525,14 +423,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f8ff95b95161d0e92e697059fae637fd695ccf21",
-                    "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -568,10 +460,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/master"
-                }
+                ]
             },
             "dev-develop": {
                 "name": "slim/slim",
@@ -579,14 +468,8 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "1078fb86adeaa0285719da4c0c45369568498a0b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/1078fb86adeaa0285719da4c0c45369568498a0b",
-                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -621,10 +504,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/develop"
-                }
+                ]
             }
         },
         "smarty/smarty": {
@@ -634,19 +514,13 @@
                 "version_normalized": "3.1.15.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "99ffac2a044e8c0677ecb71ac0391ceea795eb2b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/99ffac2a044e8c0677ecb71ac0391ceea795eb2b",
-                    "reference": "99ffac2a044e8c0677ecb71ac0391ceea795eb2b",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Smarty.git",
+                    "reference": "e68b682f2c3644821cd10b41982b12635d4c83f7"
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-01-09 09:25:49",
+                "time": "2014-01-09 09:24:57",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -656,10 +530,7 @@
                 "license": [
                     "(LGPL-2.1 or GPL-3.0+)"
                 ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/v3.1.15"
-                }
+                "description": "Smarty is a template engine for PHP."
             },
             "v3.1.16": {
                 "name": "smarty/smarty",
@@ -667,14 +538,8 @@
                 "version_normalized": "3.1.16.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
+                    "url": "git@github.com:faclib/Smarty.git",
                     "reference": "1cd4a2a26ce3cacff4b244c755824642bf50d156"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/1cd4a2a26ce3cacff4b244c755824642bf50d156",
-                    "reference": "1cd4a2a26ce3cacff4b244c755824642bf50d156",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -694,10 +559,7 @@
                 "license": [
                     "(LGPL-2.1 or GPL-3.0+)"
                 ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/v3.1.16"
-                }
+                "description": "Smarty is a template engine for PHP."
             },
             "3.1.x-dev": {
                 "name": "smarty/smarty",
@@ -705,14 +567,8 @@
                 "version_normalized": "3.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
+                    "url": "git@github.com:faclib/Smarty.git",
                     "reference": "af229ff34e69c314304c6f5a50caaed55a303f7d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/af229ff34e69c314304c6f5a50caaed55a303f7d",
-                    "reference": "af229ff34e69c314304c6f5a50caaed55a303f7d",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -727,10 +583,7 @@
                 "license": [
                     "(LGPL-2.1 or GPL-3.0+)"
                 ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/3.1.x"
-                }
+                "description": "Smarty is a template engine for PHP."
             },
             "dev-master": {
                 "name": "smarty/smarty",
@@ -738,14 +591,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
+                    "url": "git@github.com:faclib/Smarty.git",
                     "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
-                    "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -765,10 +612,7 @@
                 "license": [
                     "(LGPL-2.1 or GPL-3.0+)"
                 ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/master"
-                }
+                "description": "Smarty is a template engine for PHP."
             }
         }
     }

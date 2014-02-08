@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="packagist" default="compile" basedir=".">
+    <target name="compile" depends="satis,commit,push" description="Скомпилировать файлы" />
+
+    <target name="satis">
+        <exec executable="php" >
+            <arg value="${basedir}/satis/bin/satis" />
+            <arg value="build" />
+            <arg value="${basedir}/satis.json" />
+            <arg value="${basedir}" />
+        </exec>
+    </target>
+
+    <target name="commit">
+        <exec executable="git" dir="${basedir}" >
+            <arg value="add" />
+            <arg value="${basedir}" />
+        </exec>
+        <exec executable="git" dir="${basedir}" >
+            <arg value="commit" />
+            <arg value="-am" />
+            <arg value="commit - ${datemsg}" />
+        </exec>
+    </target>
+
+    <target name="push">
+        <exec executable="git" dir="${basedir}" >
+            <arg value="push" />
+            <arg value="origin" />
+            <arg value="gh-pages" />
+        </exec>
+    </target>
+
+    <target name="composer">
+        <exec executable="composer">
+            <arg value="install" />
+        </exec>
+        <exec executable="composer">
+            <arg value="update" />
+        </exec>
+    </target>
+</project>
