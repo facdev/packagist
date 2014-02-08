@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/facdev/php-fac.git",
-                    "reference": "372ba615d0a26a930c50fb6671ef6576c65d6f08"
+                    "reference": "1197609558a415cce81fb0ef26fe565226c0f8ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/372ba615d0a26a930c50fb6671ef6576c65d6f08",
-                    "reference": "372ba615d0a26a930c50fb6671ef6576c65d6f08",
+                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/1197609558a415cce81fb0ef26fe565226c0f8ef",
+                    "reference": "1197609558a415cce81fb0ef26fe565226c0f8ef",
                     "shasum": ""
                 },
                 "require": {
                     "ext-spl": "*",
                     "php": ">=5.3.0"
                 },
-                "time": "2014-02-07 18:23:50",
+                "time": "2014-02-07 18:40:46",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
