@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <project name="packagist" default="compile" basedir=".">
+    <tstamp>
+        <format property="datemsg" pattern="d-MMM-yyyy hh:mm" locale="en,GB" />
+    </tstamp>
+
     <target name="compile" depends="satis,commit,push" description="Скомпилировать файлы" />
 
     <target name="satis">
