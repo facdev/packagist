@@ -363,10 +363,10 @@
                     "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
                 }
             },
-            "2.4.1-alpha-1": {
+            "v2.4.1": {
                 "name": "slim/slim",
-                "version": "2.4.1-alpha-1",
-                "version_normalized": "2.4.1.0-alpha1",
+                "version": "v2.4.1",
+                "version_normalized": "2.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
