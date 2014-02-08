@@ -1,0 +1,12 @@
+{
+    "name": "Fac Repository",
+    "homepage": "http://packages.example.org",
+    "repositories": [
+        { "type": "vcs", "url": "http://github.com/faclib/Slim" },
+        { "type": "vcs", "url": "http://github.com/faclib/Smarty" },
+        { "type": "vcs", "url": "http://github.com/facdev/php-utils" },
+        { "type": "vcs", "url": "http://github.com/facdev/php-logger" },
+        { "type": "vcs", "url": "http://github.com/facdev/php-fac" }
+    ],
+    "require-all": true
+}

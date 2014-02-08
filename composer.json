@@ -1,0 +1,14 @@
+{
+    "name": "fac/fac",
+    "repositories": [
+        { "type": "composer", "url": "file:///home/tyurin/Projects/faclib/composer/" }
+    ],
+    "require": {
+        "php":">=5.4",
+        "php-utils/php-utils":"0.*",
+        "php-utils/logger":"0.*",
+        "php-utils/fac":"dev-master",
+        "slim/slim":"2.4.*",
+        "smarty/smarty":"3.*"
+    }
+}

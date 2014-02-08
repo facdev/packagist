@@ -1,0 +1,674 @@
+{
+    "packages": {
+        "php-utils/fac": {
+            "dev-master": {
+                "name": "php-utils/fac",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-fac.git",
+                    "reference": "372ba615d0a26a930c50fb6671ef6576c65d6f08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/372ba615d0a26a930c50fb6671ef6576c65d6f08",
+                    "reference": "372ba615d0a26a930c50fb6671ef6576c65d6f08",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-spl": "*",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-07 18:23:50",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Fac\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Простой набор примитивов",
+                "support": {
+                    "source": "https://github.com/facdev/php-fac/tree/master",
+                    "issues": "https://github.com/facdev/php-fac/issues"
+                }
+            }
+        },
+        "php-utils/logger": {
+            "v0.1.0": {
+                "name": "php-utils/logger",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-logger.git",
+                    "reference": "fed15fbedf57ec81e85faf07ac18db41d759677f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/fed15fbedf57ec81e85faf07ac18db41d759677f",
+                    "reference": "fed15fbedf57ec81e85faf07ac18db41d759677f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-07 15:57:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "Mini logger.",
+                "support": {
+                    "source": "https://github.com/facdev/php-logger/tree/master",
+                    "issues": "https://github.com/facdev/php-logger/issues"
+                }
+            },
+            "dev-master": {
+                "name": "php-utils/logger",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-logger.git",
+                    "reference": "de80983679bff438892da3139d70f290a885d959"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/de80983679bff438892da3139d70f290a885d959",
+                    "reference": "de80983679bff438892da3139d70f290a885d959",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-07 17:59:52",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "Mini logger.",
+                "support": {
+                    "source": "https://github.com/facdev/php-logger/tree/master"
+                }
+            }
+        },
+        "php-utils/php-utils": {
+            "0.1.0": {
+                "name": "php-utils/php-utils",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-utils.git",
+                    "reference": "72809f24c698cc760bee9ba00d5836e9740593e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/72809f24c698cc760bee9ba00d5836e9740593e4",
+                    "reference": "72809f24c698cc760bee9ba00d5836e9740593e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-01-24 18:34:43",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "PHP Utils",
+                "support": {
+                    "source": "https://github.com/facdev/php-utils/tree/0.1.0"
+                }
+            },
+            "dev-master": {
+                "name": "php-utils/php-utils",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-utils.git",
+                    "reference": "fa60e27877a5598cdf33baadfab9e3333372810c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/fa60e27877a5598cdf33baadfab9e3333372810c",
+                    "reference": "fa60e27877a5598cdf33baadfab9e3333372810c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "hautelook/phpass": "*",
+                    "mustangostang/spyc": "*",
+                    "pimple/pimple": "*"
+                },
+                "time": "2014-02-07 17:52:55",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "PHP Utils",
+                "support": {
+                    "source": "https://github.com/facdev/php-utils/tree/master"
+                }
+            }
+        },
+        "slim/slim": {
+            "v2.4.0": {
+                "name": "slim/slim",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
+                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-31 19:11:35",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
+                }
+            },
+            "v2.4.0RC1": {
+                "name": "slim/slim",
+                "version": "v2.4.0RC1",
+                "version_normalized": "2.4.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
+                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-31 19:11:35",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
+                }
+            },
+            "2.4.x-dev": {
+                "name": "slim/slim",
+                "version": "2.4.x-dev",
+                "version_normalized": "2.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "abfb405696a6b7b78217ef68327dac01f6bcf559"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/abfb405696a6b7b78217ef68327dac01f6bcf559",
+                    "reference": "abfb405696a6b7b78217ef68327dac01f6bcf559",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-19 10:21:05",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/2.4.x"
+                }
+            },
+            "3.x-dev": {
+                "name": "slim/slim",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "17b9a64e7313e3af45b89e4248772e0701f21c3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/17b9a64e7313e3af45b89e4248772e0701f21c3a",
+                    "reference": "17b9a64e7313e3af45b89e4248772e0701f21c3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-19 09:50:25",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/3.x"
+                }
+            },
+            "dev-master": {
+                "name": "slim/slim",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f8ff95b95161d0e92e697059fae637fd695ccf21",
+                    "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-02-07 15:17:34",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/master"
+                }
+            },
+            "dev-develop": {
+                "name": "slim/slim",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/1078fb86adeaa0285719da4c0c45369568498a0b",
+                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2013-12-29 20:18:35",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/develop"
+                }
+            }
+        },
+        "smarty/smarty": {
+            "3.1.15": {
+                "name": "smarty/smarty",
+                "version": "3.1.15",
+                "version_normalized": "3.1.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Smarty.git",
+                    "reference": "99ffac2a044e8c0677ecb71ac0391ceea795eb2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/99ffac2a044e8c0677ecb71ac0391ceea795eb2b",
+                    "reference": "99ffac2a044e8c0677ecb71ac0391ceea795eb2b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-01-09 09:25:49",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "libs/Smarty.class.php"
+                    ]
+                },
+                "license": [
+                    "(LGPL-2.1 or GPL-3.0+)"
+                ],
+                "description": "Smarty is a template engine for PHP.",
+                "support": {
+                    "source": "https://github.com/faclib/Smarty/tree/v3.1.15"
+                }
+            },
+            "v3.1.16": {
+                "name": "smarty/smarty",
+                "version": "v3.1.16",
+                "version_normalized": "3.1.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Smarty.git",
+                    "reference": "1cd4a2a26ce3cacff4b244c755824642bf50d156"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/1cd4a2a26ce3cacff4b244c755824642bf50d156",
+                    "reference": "1cd4a2a26ce3cacff4b244c755824642bf50d156",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-01-31 05:22:18",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "libs/Smarty.class.php"
+                    ]
+                },
+                "license": [
+                    "(LGPL-2.1 or GPL-3.0+)"
+                ],
+                "description": "Smarty is a template engine for PHP.",
+                "support": {
+                    "source": "https://github.com/faclib/Smarty/tree/v3.1.16"
+                }
+            },
+            "3.1.x-dev": {
+                "name": "smarty/smarty",
+                "version": "3.1.x-dev",
+                "version_normalized": "3.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Smarty.git",
+                    "reference": "af229ff34e69c314304c6f5a50caaed55a303f7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/af229ff34e69c314304c6f5a50caaed55a303f7d",
+                    "reference": "af229ff34e69c314304c6f5a50caaed55a303f7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-01-19 04:26:07",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "libs/Smarty.class.php"
+                    ]
+                },
+                "license": [
+                    "(LGPL-2.1 or GPL-3.0+)"
+                ],
+                "description": "Smarty is a template engine for PHP.",
+                "support": {
+                    "source": "https://github.com/faclib/Smarty/tree/3.1.x"
+                }
+            },
+            "dev-master": {
+                "name": "smarty/smarty",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Smarty.git",
+                    "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
+                    "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-07 15:39:46",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "libs/Smarty.class.php"
+                    ]
+                },
+                "license": [
+                    "(LGPL-2.1 or GPL-3.0+)"
+                ],
+                "description": "Smarty is a template engine for PHP.",
+                "support": {
+                    "source": "https://github.com/faclib/Smarty/tree/master"
+                }
+            }
+        }
+    }
+}
