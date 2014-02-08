@@ -363,19 +363,19 @@
                     "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
                 }
             },
-            "2.4.x-dev": {
+            "2.4.1-alpha-1": {
                 "name": "slim/slim",
-                "version": "2.4.x-dev",
-                "version_normalized": "2.4.9999999.9999999-dev",
+                "version": "2.4.1-alpha-1",
+                "version_normalized": "2.4.1.0-alpha1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "abfb405696a6b7b78217ef68327dac01f6bcf559"
+                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/abfb405696a6b7b78217ef68327dac01f6bcf559",
-                    "reference": "abfb405696a6b7b78217ef68327dac01f6bcf559",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/719211568b3e3d0cf489a690d6aadc302dcb19c1",
+                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1",
                     "shasum": ""
                 },
                 "require": {
@@ -384,7 +384,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-01-19 10:21:05",
+                "time": "2014-02-08 15:38:19",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -414,7 +414,61 @@
                     "router"
                 ],
                 "support": {
-                    "source": "https://github.com/faclib/Slim/tree/2.4.x"
+                    "source": "https://github.com/faclib/Slim/tree/2.4.1-alpha-1"
+                }
+            },
+            "2.4.x-dev": {
+                "name": "slim/slim",
+                "version": "2.4.x-dev",
+                "version_normalized": "2.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/719211568b3e3d0cf489a690d6aadc302dcb19c1",
+                    "reference": "719211568b3e3d0cf489a690d6aadc302dcb19c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-02-08 15:38:19",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/2.4.1-alpha-1"
                 }
             },
             "3.x-dev": {
