@@ -55,19 +55,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/facdev/php-fac.git",
-                    "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf"
+                    "reference": "ab748c72e9232a36cd54ef25e2bf4adf5a01b9f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
-                    "reference": "4c8684f2ac2c75d06c5df7e679b17b30b249fcaf",
+                    "url": "https://api.github.com/repos/facdev/php-fac/zipball/ab748c72e9232a36cd54ef25e2bf4adf5a01b9f9",
+                    "reference": "ab748c72e9232a36cd54ef25e2bf4adf5a01b9f9",
                     "shasum": ""
                 },
                 "require": {
                     "ext-spl": "*",
                     "php": ">=5.3.0"
                 },
-                "time": "2014-02-08 05:46:29",
+                "time": "2014-02-09 01:25:45",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -91,7 +91,7 @@
                 ],
                 "description": "Простой набор примитивов",
                 "support": {
-                    "source": "https://github.com/facdev/php-fac/tree/v0.1.0",
+                    "source": "https://github.com/facdev/php-fac/tree/master",
                     "issues": "https://github.com/facdev/php-fac/issues"
                 }
             }
@@ -130,8 +130,7 @@
                 ],
                 "description": "Mini logger.",
                 "support": {
-                    "source": "https://github.com/facdev/php-logger/tree/master",
-                    "issues": "https://github.com/facdev/php-logger/issues"
+                    "source": "https://github.com/facdev/php-logger/tree/v0.1.0"
                 }
             },
             "dev-master": {
@@ -141,18 +140,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/facdev/php-logger.git",
-                    "reference": "de80983679bff438892da3139d70f290a885d959"
+                    "reference": "ffdd8d7d078520ae0b9e33a1fad2cd265af27ce3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/de80983679bff438892da3139d70f290a885d959",
-                    "reference": "de80983679bff438892da3139d70f290a885d959",
+                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/ffdd8d7d078520ae0b9e33a1fad2cd265af27ce3",
+                    "reference": "ffdd8d7d078520ae0b9e33a1fad2cd265af27ce3",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-02-07 17:59:52",
+                "time": "2014-02-10 22:25:06",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -173,6 +172,42 @@
                 "description": "Mini logger.",
                 "support": {
                     "source": "https://github.com/facdev/php-logger/tree/master"
+                }
+            },
+            "dev-develop": {
+                "name": "php-utils/logger",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/facdev/php-logger.git",
+                    "reference": "1d26ac34400611b51dc2405e77f4d83eb8e6d095"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/facdev/php-logger/zipball/1d26ac34400611b51dc2405e77f4d83eb8e6d095",
+                    "reference": "1d26ac34400611b51dc2405e77f4d83eb8e6d095",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-02-11 22:13:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "Mini logger.",
+                "support": {
+                    "source": "https://github.com/facdev/php-logger/tree/develop"
                 }
             }
         },
@@ -471,6 +506,59 @@
                     "source": "https://github.com/faclib/Slim/tree/v2.4.1"
                 }
             },
+            "v3.0.0-alpha": {
+                "name": "slim/slim",
+                "version": "v3.0.0-alpha",
+                "version_normalized": "3.0.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim.git",
+                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/1078fb86adeaa0285719da4c0c45369568498a0b",
+                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2013-12-29 20:18:35",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-alpha"
+                }
+            },
             "3.x-dev": {
                 "name": "slim/slim",
                 "version": "3.x-dev",
@@ -623,7 +711,7 @@
                     "router"
                 ],
                 "support": {
-                    "source": "https://github.com/faclib/Slim/tree/develop"
+                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-alpha"
                 }
             }
         },
