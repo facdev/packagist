@@ -252,12 +252,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/facdev/php-utils.git",
-                    "reference": "fa60e27877a5598cdf33baadfab9e3333372810c"
+                    "reference": "220639a316db22c45e54d2dd4651e2c25a06a8fc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/fa60e27877a5598cdf33baadfab9e3333372810c",
-                    "reference": "fa60e27877a5598cdf33baadfab9e3333372810c",
+                    "url": "https://api.github.com/repos/facdev/php-utils/zipball/220639a316db22c45e54d2dd4651e2c25a06a8fc",
+                    "reference": "220639a316db22c45e54d2dd4651e2c25a06a8fc",
                     "shasum": ""
                 },
                 "require": {
@@ -268,7 +268,7 @@
                     "mustangostang/spyc": "*",
                     "pimple/pimple": "*"
                 },
-                "time": "2014-02-07 17:52:55",
+                "time": "2014-02-16 22:15:01",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -506,19 +506,19 @@
                     "source": "https://github.com/faclib/Slim/tree/v2.4.1"
                 }
             },
-            "v3.0.0-alpha": {
+            "v3.0.0-RC1": {
                 "name": "slim/slim",
-                "version": "v3.0.0-alpha",
-                "version_normalized": "3.0.0.0-alpha",
+                "version": "v3.0.0-RC1",
+                "version_normalized": "3.0.0.0-RC1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b"
+                    "reference": "3983d55d1798c55f6c1938f07b509d980aeb3094"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/1078fb86adeaa0285719da4c0c45369568498a0b",
-                    "reference": "1078fb86adeaa0285719da4c0c45369568498a0b",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/3983d55d1798c55f6c1938f07b509d980aeb3094",
+                    "reference": "3983d55d1798c55f6c1938f07b509d980aeb3094",
                     "shasum": ""
                 },
                 "require": {
@@ -531,7 +531,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2013-12-29 20:18:35",
+                "time": "2014-02-13 20:53:50",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -556,7 +556,7 @@
                     "router"
                 ],
                 "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-alpha"
+                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-RC1"
                 }
             },
             "3.x-dev": {
@@ -614,12 +614,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21"
+                    "reference": "3056e43cbc826a8f974c7ebcf5f049c1ed468f2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f8ff95b95161d0e92e697059fae637fd695ccf21",
-                    "reference": "f8ff95b95161d0e92e697059fae637fd695ccf21",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/3056e43cbc826a8f974c7ebcf5f049c1ed468f2b",
+                    "reference": "3056e43cbc826a8f974c7ebcf5f049c1ed468f2b",
                     "shasum": ""
                 },
                 "require": {
@@ -628,7 +628,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-02-07 15:17:34",
+                "time": "2014-02-17 02:05:49",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -711,7 +711,87 @@
                     "router"
                 ],
                 "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-alpha"
+                    "source": "https://github.com/faclib/Slim/tree/develop"
+                }
+            }
+        },
+        "slim/view-smarty": {
+            "v0.1.0": {
+                "name": "slim/view-smarty",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "target-dir": "Slim/Views",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
+                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/ad05771b3707996f85f81af91fdd85f333c99a52",
+                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "slim/slim": "3.*"
+                },
+                "suggest": {
+                    "smarty/smarty": "Smarty templating system"
+                },
+                "time": "2014-02-17 04:24:06",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim\\Views": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Smarty View Parser package for the Slim Framework",
+                "support": {
+                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/v0.1.0",
+                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
+                }
+            },
+            "dev-master": {
+                "name": "slim/view-smarty",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Slim/Views",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
+                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/ad05771b3707996f85f81af91fdd85f333c99a52",
+                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "slim/slim": "3.*"
+                },
+                "suggest": {
+                    "smarty/smarty": "Smarty templating system"
+                },
+                "time": "2014-02-17 04:24:06",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim\\Views": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Smarty View Parser package for the Slim Framework",
+                "support": {
+                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/v0.1.0",
+                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
                 }
             }
         },

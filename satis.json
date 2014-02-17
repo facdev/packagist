@@ -4,6 +4,7 @@
     "repositories": [
         { "type": "vcs", "url": "https://github.com/faclib/Slim" },
         { "type": "vcs", "url": "https://github.com/faclib/Smarty" },
+	{ "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" },
         { "type": "vcs", "url": "https://github.com/facdev/php-utils" },
         { "type": "vcs", "url": "https://github.com/facdev/php-logger" },
         { "type": "vcs", "url": "https://github.com/facdev/php-fac" }
